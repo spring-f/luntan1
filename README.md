@@ -14,3 +14,20 @@
 
 
 mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
+##部署
+###依赖
+git 
+jdk
+maven
+mysql
+###步骤
+yum update
+yum install git
+mkdir app
+cd app
+git clone 
+yum install maven
+mvn -v
+mvn compile package  打包
+cp src/main/resources/application.properties src/main/resources/application-production.   覆盖
+vim src/main/resources/application-production.properties 编辑
